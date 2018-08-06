@@ -41,5 +41,20 @@ body
                     word-break: normal
                     word-wrap: normal       
 
-
+@media (max-width: 732px)
+    body
+        display: flex
+        flex-direction: column
+        #navbar
+            position: relative
+            max-height: 200px
+            min-height: 200px
+            overflow-y: scroll
+            overflow-x: hidden
+            border:  2px solid rgba(0,22,22,0.4)
+            header
+                text-align: center
+        #main-doc
+            margin-left: 0
+            padding: 20px
         
